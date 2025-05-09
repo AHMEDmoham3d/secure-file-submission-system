@@ -94,6 +94,7 @@ const UploadPage: React.FC = () => {
         setFileName('');
         setSubmitStatus('idle');
       }, 3000);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setSubmitStatus('error');
       setErrorMessage('An error occurred while submitting your data. Please try again.');
